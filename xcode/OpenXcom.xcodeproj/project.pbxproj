@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1A697219C8A56100929F70 /* SDL_framerate.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A696719C8A56100929F70 /* SDL_framerate.c */; };
+		1A1A697319C8A56100929F70 /* SDL_gfxBlitFunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A696919C8A56100929F70 /* SDL_gfxBlitFunc.c */; };
+		1A1A697419C8A56100929F70 /* SDL_gfxPrimitives.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A696C19C8A56100929F70 /* SDL_gfxPrimitives.c */; };
+		1A1A697519C8A56100929F70 /* SDL_imageFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A696E19C8A56100929F70 /* SDL_imageFilter.c */; };
+		1A1A697619C8A56100929F70 /* SDL_rotozoom.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A697019C8A56100929F70 /* SDL_rotozoom.c */; };
+		1A1A77FF19C7AC7600CE4F22 /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1A77FE19C7AC7600CE4F22 /* boost.framework */; };
+		1A7D20FD19C796A9003726E9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6BB58D4C1936FADC00DF3F68 /* README.txt */; };
+		1A7D20FE19C796A9003726E9 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 6BB590D61937A60800DF3F68 /* data */; };
+		1A7D20FF19C796A9003726E9 /* CHANGELOG.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6BB58D4B1936FADC00DF3F68 /* CHANGELOG.txt */; };
+		1A9B8F4419C8F3E60040691C /* libSDL2_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA715DD19C7B7F100860E3F /* libSDL2_image.a */; };
+		1A9B8F4519C8F3E70040691C /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA715E219C7B80D00860E3F /* libSDL2_mixer.a */; };
+		1A9B8F4619C8F3E70040691C /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA715D819C7B7D100860E3F /* libSDL2.a */; };
+		1A9B8F4A19C8F4A60040691C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9B8F4919C8F4A60040691C /* ImageIO.framework */; };
+		1A9B8F4C19C8F4EC0040691C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9B8F4B19C8F4EC0040691C /* CoreText.framework */; };
+		1A9B8F4E19C8F4F60040691C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9B8F4D19C8F4F60040691C /* AssetsLibrary.framework */; };
+		1A9B8F5019C8F4FC0040691C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9B8F4F19C8F4FC0040691C /* libz.dylib */; };
+		1A9B8F5219C8F5080040691C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9B8F5119C8F5080040691C /* libxml2.dylib */; };
+		1A9B8F5419C8F5380040691C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9B8F5319C8F5380040691C /* MobileCoreServices.framework */; };
+		1AA715CB19C7B4ED00860E3F /* libyaml-cpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1A77F319C7A8BE00CE4F22 /* libyaml-cpp.a */; };
+		1AD7DC6A19C7A2C300FAB81E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD7DC6919C7A2C300FAB81E /* OpenGLES.framework */; };
+		1AD7DC6D19C7A2E200FAB81E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD7DC6C19C7A2E200FAB81E /* CoreAudio.framework */; };
+		1AD7DC6F19C7A2F600FAB81E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD7DC6E19C7A2F600FAB81E /* AudioToolbox.framework */; };
+		1AD7DC7119C7A30600FAB81E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD7DC7019C7A30600FAB81E /* CoreGraphics.framework */; };
+		1ADF52B919C79DE800999645 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF52B719C79DE800999645 /* SDLMain.m */; };
+		5E5BA7DA1974481400F8E44F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5BA7D91974481400F8E44F /* OpenGL.framework */; };
 		6BACF5FC19350F9700E1A981 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BACF5FB19350F9700E1A981 /* Cocoa.framework */; };
 		6BACF61419350F9700E1A981 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BACF61319350F9700E1A981 /* Images.xcassets */; };
 		6BACF63119350FF800E1A981 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BACF63019350FF800E1A981 /* SDLMain.m */; };
@@ -20,7 +45,130 @@
 		6BB590D71937A60800DF3F68 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 6BB590D61937A60800DF3F68 /* data */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1A1A77F219C7A8BE00CE4F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A1A77E619C7A8BE00CE4F22 /* YAML_CPP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DCF1DA99AF5455B8053950A;
+			remoteInfo = "yaml-cpp";
+		};
+		1A1A77F419C7A8BE00CE4F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A1A77E619C7A8BE00CE4F22 /* YAML_CPP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0EA945FD49F7436DACFB9475;
+			remoteInfo = "run-tests";
+		};
+		1A1A77F619C7A8BE00CE4F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A1A77E619C7A8BE00CE4F22 /* YAML_CPP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D39391510734F72875B1035;
+			remoteInfo = parse;
+		};
+		1A1A77F819C7A8BE00CE4F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A1A77E619C7A8BE00CE4F22 /* YAML_CPP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5DDF35FB46143E9A78C81EE;
+			remoteInfo = read;
+		};
+		1A1A77FA19C7A8BE00CE4F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A1A77E619C7A8BE00CE4F22 /* YAML_CPP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEE6FEAC24774F55AE7D1F0B;
+			remoteInfo = sandbox;
+		};
+		1A9B8F5719C959470040691C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A1A77E619C7A8BE00CE4F22 /* YAML_CPP.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB252DDAF5D430F9B8CF893;
+			remoteInfo = "yaml-cpp";
+		};
+		1A9B8F5919C9594D0040691C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD7DC7219C7A35A00FAB81E /* SDL.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6526620DE8FCCB002AD96B;
+			remoteInfo = libSDL;
+		};
+		1A9B8F5B19C959520040691C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AA715C419C7B4D200860E3F /* SDL_image.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1FA72F07AF4C45004B6283;
+			remoteInfo = libSDL_image;
+		};
+		1A9B8F5D19C959570040691C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AA715CC19C7B6DA00860E3F /* SDL_mixer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1FA90707AF96B2004B6283;
+			remoteInfo = "Static Library";
+		};
+		1AA715D719C7B7D100860E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD7DC7219C7A35A00FAB81E /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD6526630DE8FCCB002AD96B;
+			remoteInfo = libSDL;
+		};
+		1AA715DC19C7B7F100860E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AA715C419C7B4D200860E3F /* SDL_image.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE1FA74107AF4C45004B6283;
+			remoteInfo = libSDL_image;
+		};
+		1AA715E119C7B80D00860E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AA715CC19C7B6DA00860E3F /* SDL_mixer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE1FA95407AF96B2004B6283;
+			remoteInfo = "Static Library";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1A1A696719C8A56100929F70 /* SDL_framerate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_framerate.c; path = SDL_gfx/SDL_framerate.c; sourceTree = SOURCE_ROOT; };
+		1A1A696819C8A56100929F70 /* SDL_framerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_framerate.h; path = SDL_gfx/SDL_framerate.h; sourceTree = SOURCE_ROOT; };
+		1A1A696919C8A56100929F70 /* SDL_gfxBlitFunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_gfxBlitFunc.c; path = SDL_gfx/SDL_gfxBlitFunc.c; sourceTree = SOURCE_ROOT; };
+		1A1A696A19C8A56100929F70 /* SDL_gfxBlitFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_gfxBlitFunc.h; path = SDL_gfx/SDL_gfxBlitFunc.h; sourceTree = SOURCE_ROOT; };
+		1A1A696B19C8A56100929F70 /* SDL_gfxPrimitives_font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_gfxPrimitives_font.h; path = SDL_gfx/SDL_gfxPrimitives_font.h; sourceTree = SOURCE_ROOT; };
+		1A1A696C19C8A56100929F70 /* SDL_gfxPrimitives.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_gfxPrimitives.c; path = SDL_gfx/SDL_gfxPrimitives.c; sourceTree = SOURCE_ROOT; };
+		1A1A696D19C8A56100929F70 /* SDL_gfxPrimitives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_gfxPrimitives.h; path = SDL_gfx/SDL_gfxPrimitives.h; sourceTree = SOURCE_ROOT; };
+		1A1A696E19C8A56100929F70 /* SDL_imageFilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_imageFilter.c; path = SDL_gfx/SDL_imageFilter.c; sourceTree = SOURCE_ROOT; };
+		1A1A696F19C8A56100929F70 /* SDL_imageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_imageFilter.h; path = SDL_gfx/SDL_imageFilter.h; sourceTree = SOURCE_ROOT; };
+		1A1A697019C8A56100929F70 /* SDL_rotozoom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_rotozoom.c; path = SDL_gfx/SDL_rotozoom.c; sourceTree = SOURCE_ROOT; };
+		1A1A697119C8A56100929F70 /* SDL_rotozoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_rotozoom.h; path = SDL_gfx/SDL_rotozoom.h; sourceTree = SOURCE_ROOT; };
+		1A1A77E619C7A8BE00CE4F22 /* YAML_CPP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YAML_CPP.xcodeproj; path = "yaml-cpp-0.5.1/YAML_CPP.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1A1A77FE19C7AC7600CE4F22 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = boost.framework; sourceTree = "<group>"; };
+		1A7D210319C796A9003726E9 /* OpenXcom iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenXcom iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9B8F4719C8F4700040691C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libc++.dylib"; sourceTree = DEVELOPER_DIR; };
+		1A9B8F4919C8F4A60040691C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		1A9B8F4B19C8F4EC0040691C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		1A9B8F4D19C8F4F60040691C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		1A9B8F4F19C8F4FC0040691C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		1A9B8F5119C8F5080040691C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
+		1A9B8F5319C8F5380040691C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		1A9B8F5519C8F5600040691C /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libstdc++.dylib"; sourceTree = DEVELOPER_DIR; };
+		1AA715C419C7B4D200860E3F /* SDL_image.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_image.xcodeproj; path = "SDL_image/Xcode-iOS/SDL_image.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1AA715CC19C7B6DA00860E3F /* SDL_mixer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_mixer.xcodeproj; path = "SDL_mixer/Xcode-iOS/SDL_mixer.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1ACC788619C986160021DB1E /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libc++abi.dylib"; sourceTree = DEVELOPER_DIR; };
+		1AD7DC6919C7A2C300FAB81E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		1AD7DC6C19C7A2E200FAB81E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
+		1AD7DC6E19C7A2F600FAB81E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		1AD7DC7019C7A30600FAB81E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1AD7DC7219C7A35A00FAB81E /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "SDL/Xcode-iOS/SDL/SDL.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1ADF52B419C79DE800999645 /* OpenXcom-iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OpenXcom-iOS-Info.plist"; sourceTree = "<group>"; };
+		1ADF52B519C79DE800999645 /* OpenXcom-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenXcom-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		1ADF52B619C79DE800999645 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		1ADF52B719C79DE800999645 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		1ADF52BB19C79E9B00999645 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E5BA7D91974481400F8E44F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		6BACF5F819350F9700E1A981 /* OpenXcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenXcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BACF5FB19350F9700E1A981 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6BACF5FE19350F9700E1A981 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -42,10 +190,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1A7D20F319C796A9003726E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9B8F5419C8F5380040691C /* MobileCoreServices.framework in Frameworks */,
+				1A9B8F5219C8F5080040691C /* libxml2.dylib in Frameworks */,
+				1A9B8F5019C8F4FC0040691C /* libz.dylib in Frameworks */,
+				1A9B8F4419C8F3E60040691C /* libSDL2_image.a in Frameworks */,
+				1A9B8F4519C8F3E70040691C /* libSDL2_mixer.a in Frameworks */,
+				1A9B8F4619C8F3E70040691C /* libSDL2.a in Frameworks */,
+				1AA715CB19C7B4ED00860E3F /* libyaml-cpp.a in Frameworks */,
+				1A9B8F4E19C8F4F60040691C /* AssetsLibrary.framework in Frameworks */,
+				1A9B8F4C19C8F4EC0040691C /* CoreText.framework in Frameworks */,
+				1AD7DC7119C7A30600FAB81E /* CoreGraphics.framework in Frameworks */,
+				1A9B8F4A19C8F4A60040691C /* ImageIO.framework in Frameworks */,
+				1AD7DC6F19C7A2F600FAB81E /* AudioToolbox.framework in Frameworks */,
+				1AD7DC6D19C7A2E200FAB81E /* CoreAudio.framework in Frameworks */,
+				1A1A77FF19C7AC7600CE4F22 /* boost.framework in Frameworks */,
+				1AD7DC6A19C7A2C300FAB81E /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6BACF5F519350F9700E1A981 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5BA7DA1974481400F8E44F /* OpenGL.framework in Frameworks */,
 				6BACF5FC19350F9700E1A981 /* Cocoa.framework in Frameworks */,
 				6BB58D581936FB7500DF3F68 /* libyaml-cpp.a in Frameworks */,
 				6BB58D551936FB7500DF3F68 /* libSDL_image.a in Frameworks */,
@@ -58,11 +229,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A1A696619C8A53300929F70 /* SDL_gfx */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A696719C8A56100929F70 /* SDL_framerate.c */,
+				1A1A696819C8A56100929F70 /* SDL_framerate.h */,
+				1A1A696919C8A56100929F70 /* SDL_gfxBlitFunc.c */,
+				1A1A696A19C8A56100929F70 /* SDL_gfxBlitFunc.h */,
+				1A1A696B19C8A56100929F70 /* SDL_gfxPrimitives_font.h */,
+				1A1A696C19C8A56100929F70 /* SDL_gfxPrimitives.c */,
+				1A1A696D19C8A56100929F70 /* SDL_gfxPrimitives.h */,
+				1A1A696E19C8A56100929F70 /* SDL_imageFilter.c */,
+				1A1A696F19C8A56100929F70 /* SDL_imageFilter.h */,
+				1A1A697019C8A56100929F70 /* SDL_rotozoom.c */,
+				1A1A697119C8A56100929F70 /* SDL_rotozoom.h */,
+			);
+			name = SDL_gfx;
+			sourceTree = "<group>";
+		};
+		1A1A72EE19C7A46E00CE4F22 /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		1A1A77E719C7A8BE00CE4F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A77F319C7A8BE00CE4F22 /* libyaml-cpp.a */,
+				1A1A77F519C7A8BE00CE4F22 /* run-tests */,
+				1A1A77F719C7A8BE00CE4F22 /* parse */,
+				1A1A77F919C7A8BE00CE4F22 /* read */,
+				1A1A77FB19C7A8BE00CE4F22 /* sandbox */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AA715BD19C7B41A00860E3F /* Addons */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A696619C8A53300929F70 /* SDL_gfx */,
+			);
+			name = Addons;
+			sourceTree = "<group>";
+		};
+		1AA715D319C7B7D000860E3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA715D819C7B7D100860E3F /* libSDL2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AA715D919C7B7F100860E3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA715DD19C7B7F100860E3F /* libSDL2_image.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AA715DE19C7B80D00860E3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA715E219C7B80D00860E3F /* libSDL2_mixer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADF52B319C79DE800999645 /* OpenXcom-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1AA715BD19C7B41A00860E3F /* Addons */,
+				1A1A77FE19C7AC7600CE4F22 /* boost.framework */,
+				1A1A77E619C7A8BE00CE4F22 /* YAML_CPP.xcodeproj */,
+				1AD7DC7219C7A35A00FAB81E /* SDL.xcodeproj */,
+				1AA715C419C7B4D200860E3F /* SDL_image.xcodeproj */,
+				1AA715CC19C7B6DA00860E3F /* SDL_mixer.xcodeproj */,
+				1ADF52B619C79DE800999645 /* SDLMain.h */,
+				1ADF52B719C79DE800999645 /* SDLMain.m */,
+				1ADF52BB19C79E9B00999645 /* Images.xcassets */,
+				1ADF52BA19C79E0B00999645 /* Supporting Files */,
+			);
+			path = "OpenXcom-iOS";
+			sourceTree = SOURCE_ROOT;
+		};
+		1ADF52BA19C79E0B00999645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF52B419C79DE800999645 /* OpenXcom-iOS-Info.plist */,
+				1ADF52B519C79DE800999645 /* OpenXcom-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6BACF5EF19350F9700E1A981 = {
 			isa = PBXGroup;
 			children = (
+				1A1A72EE19C7A46E00CE4F22 /* src */,
 				6BB590D61937A60800DF3F68 /* data */,
 				6BACF60119350F9700E1A981 /* OpenXcom */,
+				1ADF52B319C79DE800999645 /* OpenXcom-iOS */,
 				6BACF5FA19350F9700E1A981 /* Frameworks */,
 				6BACF5F919350F9700E1A981 /* Products */,
 			);
@@ -72,6 +341,7 @@
 			isa = PBXGroup;
 			children = (
 				6BACF5F819350F9700E1A981 /* OpenXcom.app */,
+				1A7D210319C796A9003726E9 /* OpenXcom iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +349,20 @@
 		6BACF5FA19350F9700E1A981 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1ACC788619C986160021DB1E /* libc++abi.dylib */,
+				1A9B8F5519C8F5600040691C /* libstdc++.dylib */,
+				1A9B8F5319C8F5380040691C /* MobileCoreServices.framework */,
+				1A9B8F5119C8F5080040691C /* libxml2.dylib */,
+				1A9B8F4F19C8F4FC0040691C /* libz.dylib */,
+				1A9B8F4D19C8F4F60040691C /* AssetsLibrary.framework */,
+				1A9B8F4B19C8F4EC0040691C /* CoreText.framework */,
+				1A9B8F4919C8F4A60040691C /* ImageIO.framework */,
+				1A9B8F4719C8F4700040691C /* libc++.dylib */,
+				1AD7DC7019C7A30600FAB81E /* CoreGraphics.framework */,
+				1AD7DC6E19C7A2F600FAB81E /* AudioToolbox.framework */,
+				1AD7DC6C19C7A2E200FAB81E /* CoreAudio.framework */,
+				1AD7DC6919C7A2C300FAB81E /* OpenGLES.framework */,
+				5E5BA7D91974481400F8E44F /* OpenGL.framework */,
 				6BB58D4F1936FB7500DF3F68 /* libSDL_gfx.a */,
 				6BB58D501936FB7500DF3F68 /* libSDL_image.a */,
 				6BB58D511936FB7500DF3F68 /* libSDL_mixer.a */,
@@ -125,6 +409,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1A7D20F019C796A9003726E9 /* OpenXcom iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7D210019C796A9003726E9 /* Build configuration list for PBXNativeTarget "OpenXcom iOS" */;
+			buildPhases = (
+				1A7D20F119C796A9003726E9 /* Sources */,
+				1A7D20F319C796A9003726E9 /* Frameworks */,
+				1A7D20FB19C796A9003726E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A9B8F5E19C959570040691C /* PBXTargetDependency */,
+				1A9B8F5C19C959520040691C /* PBXTargetDependency */,
+				1A9B8F5A19C9594D0040691C /* PBXTargetDependency */,
+				1A9B8F5819C959470040691C /* PBXTargetDependency */,
+			);
+			name = "OpenXcom iOS";
+			productName = OpenXcom;
+			productReference = 1A7D210319C796A9003726E9 /* OpenXcom iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6BACF5F719350F9700E1A981 /* OpenXcom */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BACF62919350F9700E1A981 /* Build configuration list for PBXNativeTarget "OpenXcom" */;
@@ -162,14 +467,102 @@
 			mainGroup = 6BACF5EF19350F9700E1A981;
 			productRefGroup = 6BACF5F919350F9700E1A981 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1AA715D319C7B7D000860E3F /* Products */;
+					ProjectRef = 1AD7DC7219C7A35A00FAB81E /* SDL.xcodeproj */;
+				},
+				{
+					ProductGroup = 1AA715D919C7B7F100860E3F /* Products */;
+					ProjectRef = 1AA715C419C7B4D200860E3F /* SDL_image.xcodeproj */;
+				},
+				{
+					ProductGroup = 1AA715DE19C7B80D00860E3F /* Products */;
+					ProjectRef = 1AA715CC19C7B6DA00860E3F /* SDL_mixer.xcodeproj */;
+				},
+				{
+					ProductGroup = 1A1A77E719C7A8BE00CE4F22 /* Products */;
+					ProjectRef = 1A1A77E619C7A8BE00CE4F22 /* YAML_CPP.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6BACF5F719350F9700E1A981 /* OpenXcom */,
+				1A7D20F019C796A9003726E9 /* OpenXcom iOS */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		1A1A77F319C7A8BE00CE4F22 /* libyaml-cpp.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libyaml-cpp.a";
+			remoteRef = 1A1A77F219C7A8BE00CE4F22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A1A77F519C7A8BE00CE4F22 /* run-tests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "run-tests";
+			remoteRef = 1A1A77F419C7A8BE00CE4F22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A1A77F719C7A8BE00CE4F22 /* parse */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = parse;
+			remoteRef = 1A1A77F619C7A8BE00CE4F22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A1A77F919C7A8BE00CE4F22 /* read */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = read;
+			remoteRef = 1A1A77F819C7A8BE00CE4F22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A1A77FB19C7A8BE00CE4F22 /* sandbox */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = sandbox;
+			remoteRef = 1A1A77FA19C7A8BE00CE4F22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1AA715D819C7B7D100860E3F /* libSDL2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2.a;
+			remoteRef = 1AA715D719C7B7D100860E3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1AA715DD19C7B7F100860E3F /* libSDL2_image.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2_image.a;
+			remoteRef = 1AA715DC19C7B7F100860E3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1AA715E219C7B80D00860E3F /* libSDL2_mixer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2_mixer.a;
+			remoteRef = 1AA715E119C7B80D00860E3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
+		1A7D20FB19C796A9003726E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7D20FD19C796A9003726E9 /* README.txt in Resources */,
+				1A7D20FE19C796A9003726E9 /* data in Resources */,
+				1A7D20FF19C796A9003726E9 /* CHANGELOG.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6BACF5F619350F9700E1A981 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,6 +577,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1A7D20F119C796A9003726E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1A697519C8A56100929F70 /* SDL_imageFilter.c in Sources */,
+				1A1A697419C8A56100929F70 /* SDL_gfxPrimitives.c in Sources */,
+				1A1A697219C8A56100929F70 /* SDL_framerate.c in Sources */,
+				1ADF52B919C79DE800999645 /* SDLMain.m in Sources */,
+				1A1A697319C8A56100929F70 /* SDL_gfxBlitFunc.c in Sources */,
+				1A1A697619C8A56100929F70 /* SDL_rotozoom.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6BACF5F419350F9700E1A981 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,7 +600,86 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1A9B8F5819C959470040691C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "yaml-cpp";
+			targetProxy = 1A9B8F5719C959470040691C /* PBXContainerItemProxy */;
+		};
+		1A9B8F5A19C9594D0040691C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libSDL;
+			targetProxy = 1A9B8F5919C9594D0040691C /* PBXContainerItemProxy */;
+		};
+		1A9B8F5C19C959520040691C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libSDL_image;
+			targetProxy = 1A9B8F5B19C959520040691C /* PBXContainerItemProxy */;
+		};
+		1A9B8F5E19C959570040691C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Static Library";
+			targetProxy = 1A9B8F5D19C959570040691C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1A7D210119C796A9003726E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenXcom-iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenXcom-iOS/OpenXcom-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"__NO_OPENGL=1",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "OpenXcom-iOS/OpenXcom-iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "OpenXcom iOS";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				USER_HEADER_SEARCH_PATHS = "yaml-cpp-0.5.1/include SDL/include SDL_image SDL_mixer OpenXcom-iOS/boost.framework/Headers";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A7D210219C796A9003726E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenXcom-iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenXcom-iOS/OpenXcom-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "__NO_OPENGL=1";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "OpenXcom-iOS/OpenXcom-iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "OpenXcom iOS";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				USER_HEADER_SEARCH_PATHS = "yaml-cpp-0.5.1/include SDL/include SDL_image SDL_mixer OpenXcom-iOS/boost.framework/Headers";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		6BACF62719350F9700E1A981 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -227,13 +712,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/include,
-					/usr/local/include/sdl,
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/opt/local/lib,
 				);
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -267,13 +750,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/include,
-					/usr/local/include/sdl,
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/opt/local/lib,
 				);
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
@@ -286,6 +767,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenXcom/OpenXcom-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+				);
 				INFOPLIST_FILE = "OpenXcom/OpenXcom-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -299,6 +784,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenXcom/OpenXcom-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+				);
 				INFOPLIST_FILE = "OpenXcom/OpenXcom-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -308,6 +797,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A7D210019C796A9003726E9 /* Build configuration list for PBXNativeTarget "OpenXcom iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7D210119C796A9003726E9 /* Debug */,
+				1A7D210219C796A9003726E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6BACF5F319350F9700E1A981 /* Build configuration list for PBXProject "OpenXcom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
