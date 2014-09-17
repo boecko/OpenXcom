@@ -2,7 +2,7 @@ set ( root_src
   main.cpp
   lodepng.cpp
   lodepng.h
-  dirent.h
+  dirent_wrapper.h
   fmath.h
   version.h
 )

@@ -25,7 +25,7 @@
 #include <locale>
 #include <stdint.h>
 #include <sys/stat.h>
-#include "../dirent.h"
+#include "dirent_wrapper.h"
 #include "Logger.h"
 #include "Exception.h"
 #include "Options.h"
