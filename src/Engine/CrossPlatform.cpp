@@ -173,7 +173,7 @@ std::vector<std::string> findDataFolders()
  	{
 #ifdef __APPLE__
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
-        snprintf(path, MAXPATHLEN, "%s/Library/data/", home);
+        snprintf(path, MAXPATHLEN, "%s/Documents/data/", home);
 #else
 		snprintf(path, MAXPATHLEN, "%s/Library/Application Support/OpenXcom/data/", home);
 #endif
@@ -276,7 +276,11 @@ std::vector<std::string> findUserFolders()
  	else
  	{
 #ifdef __APPLE__
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+        snprintf(path, MAXPATHLEN, "%s/Documents/", home);
+#else
 		snprintf(path, MAXPATHLEN, "%s/Library/Application Support/OpenXcom/", home);
+#endif
 #else
 		snprintf(path, MAXPATHLEN, "%s/.local/share/openxcom/", home);
 #endif
@@ -304,7 +308,7 @@ std::string findConfigFolder()
 	return "PROGDIR:";
 #endif
 
-#ifdef __ANDROID__
+#if defined(__ANDROID__) && !defined(__APPLE__)
 	return "/sdcard/openxcom/";
 #endif
 
