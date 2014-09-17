@@ -3078,6 +3078,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"_NDEBUG=1",
 					"__NO_OPENGL=1",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
