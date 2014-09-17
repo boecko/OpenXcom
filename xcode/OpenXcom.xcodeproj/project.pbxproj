@@ -15,6 +15,7 @@
 		1A1A77FF19C7AC7600CE4F22 /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1A77FE19C7AC7600CE4F22 /* boost.framework */; };
 		1A62984919CA02E100CF51FA /* osxlog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A62984819CA02E100CF51FA /* osxlog.mm */; };
 		1A62984A19CA02E100CF51FA /* osxlog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A62984819CA02E100CF51FA /* osxlog.mm */; };
+		1A62986019CA47F400CF51FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BACF61319350F9700E1A981 /* Images.xcassets */; };
 		1A6C10F219C9968F000A8B05 /* BaseInfoState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C0E9D19C9968E000A8B05 /* BaseInfoState.cpp */; };
 		1A6C10F319C9968F000A8B05 /* BaseInfoState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C0E9D19C9968E000A8B05 /* BaseInfoState.cpp */; };
 		1A6C10F419C9968F000A8B05 /* BasescapeState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C0E9F19C9968E000A8B05 /* BasescapeState.cpp */; };
@@ -1331,7 +1332,6 @@
 		1ADF52B519C79DE800999645 /* OpenXcom-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenXcom-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		1ADF52B619C79DE800999645 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
 		1ADF52B719C79DE800999645 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
-		1ADF52BB19C79E9B00999645 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5E5BA7D91974481400F8E44F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		6BACF5F819350F9700E1A981 /* OpenXcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenXcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BACF5FB19350F9700E1A981 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -2165,7 +2165,6 @@
 				1AA715CC19C7B6DA00860E3F /* SDL_mixer.xcodeproj */,
 				1ADF52B619C79DE800999645 /* SDLMain.h */,
 				1ADF52B719C79DE800999645 /* SDLMain.m */,
-				1ADF52BB19C79E9B00999645 /* Images.xcassets */,
 				1ADF52BA19C79E0B00999645 /* Supporting Files */,
 			);
 			path = "OpenXcom-iOS";
@@ -2413,6 +2412,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A62986019CA47F400CF51FA /* Images.xcassets in Resources */,
 				1A6C133319C9A5FD000A8B05 /* data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3064,7 +3064,7 @@
 					armv7s,
 					armv7,
 				);
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iOSAppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3102,7 +3102,7 @@
 					armv7s,
 					armv7,
 				);
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iOSAppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";

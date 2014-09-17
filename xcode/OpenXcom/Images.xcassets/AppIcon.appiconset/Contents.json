@@ -7,9 +7,9 @@
       "scale" : "1x"
     },
     {
-      "idiom" : "mac",
       "size" : "16x16",
-	  "filename" : "OpenXcom16@2x.png",
+      "idiom" : "mac",
+      "filename" : "OpenXcom16@2x.png",
       "scale" : "2x"
     },
     {
@@ -19,9 +19,9 @@
       "scale" : "1x"
     },
     {
-      "idiom" : "mac",
       "size" : "32x32",
-	  "filename" : "OpenXcom32@2x.png",
+      "idiom" : "mac",
+      "filename" : "OpenXcom32@2x.png",
       "scale" : "2x"
     },
     {
@@ -31,9 +31,9 @@
       "scale" : "1x"
     },
     {
-      "idiom" : "mac",
       "size" : "128x128",
-	  "filename" : "OpenXcom128@2x.png",
+      "idiom" : "mac",
+      "filename" : "OpenXcom128@2x.png",
       "scale" : "2x"
     },
     {
@@ -43,9 +43,9 @@
       "scale" : "1x"
     },
     {
-      "idiom" : "mac",
       "size" : "256x256",
-	  "filename" : "OpenXcom256@2x.png",
+      "idiom" : "mac",
+      "filename" : "OpenXcom256@2x.png",
       "scale" : "2x"
     },
     {
@@ -55,9 +55,9 @@
       "scale" : "1x"
     },
     {
-      "idiom" : "mac",
       "size" : "512x512",
-	  "filename" : "OpenXcom512@2x.png",
+      "idiom" : "mac",
+      "filename" : "OpenXcom512@2x.png",
       "scale" : "2x"
     }
   ],
