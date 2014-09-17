@@ -38,6 +38,9 @@
 #if defined(__ANDROID__) && !defined(__APPLE__) 
 #include <android/log.h>
 #endif
+#if defined(__APPLE__)
+#include "osxlog.h"
+#endif
 
 namespace OpenXcom
 {
@@ -100,8 +103,10 @@ inline Logger::~Logger()
 	}
 	std::ostringstream ss;
 	ss << "[" << now() << "]" << "\t" << os.str();
-#ifdef __ANDROID__
+#if defined(__ANDROID__) && !defined(__APPLE__)
 	__android_log_print(ANDROID_LOG_INFO, "OpenXcom", "%s", ss.str().c_str());
+#elif defined(__APPLE__)
+    OSXLog(ss.str().c_str());
 #else
 	FILE *file = fopen(logFile().c_str(), "a");
 	fprintf(file, "%s", ss.str().c_str());
