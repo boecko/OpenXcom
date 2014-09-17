@@ -64,6 +64,10 @@
 #include <android/log.h>
 #endif
 
+#ifdef __APPLE__
+#include <TargetConditionals.h>
+#endif
+
 namespace OpenXcom
 {
 namespace CrossPlatform
@@ -123,7 +127,7 @@ std::vector<std::string> findDataFolders()
 	return list;
 #endif
 
-#ifdef __ANDROID__
+#if defined(__ANDROID__) && !defined(__APPLE__)
 	list.push_back("/sdcard/openxcom/data/");
 	list.push_back("/storage/extSdCard/openxcom/data/");
 	return list;
@@ -168,7 +172,11 @@ std::vector<std::string> findDataFolders()
  	else
  	{
 #ifdef __APPLE__
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+        snprintf(path, MAXPATHLEN, "%s/Library/data/", home);
+#else
 		snprintf(path, MAXPATHLEN, "%s/Library/Application Support/OpenXcom/data/", home);
+#endif
 #else
 		snprintf(path, MAXPATHLEN, "%s/.local/share/openxcom/data/", home);
 #endif
