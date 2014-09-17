@@ -86,7 +86,7 @@ int generate(int min, int max)
 double generate(double min, double max)
 {
 	double num = next();
-#ifdef __ANDROID__
+#if defined(__ANDROID__) && !defined(__APPLE__) 
 #define UINT64_MAX (__UINT64_C(18446744073709551615))
 #endif
 	return (double)(num / ((double)UINT64_MAX / (max - min)) + min);

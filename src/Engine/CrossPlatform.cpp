@@ -60,7 +60,7 @@
 #include <SDL_syswm.h>
 #include <SDL_image.h>
 
-#ifdef __ANDROID__
+#if defined(__ANDROID__) && !defined(__APPLE__)
 #include <android/log.h>
 #endif
 
@@ -797,7 +797,7 @@ bool isQuitShortcut(const SDL_Event &ev)
 #ifdef _WIN32
 	// Alt + F4
 	return (ev.type == SDL_KEYDOWN && ev.key.keysym.sym == SDLK_F4 && ev.key.keysym.mod & KMOD_ALT);
-#elif __APPLE__
+#elif __APPLE__ && !__ANDROID__
 	// Command + Q
 	return (ev.type == SDL_KEYDOWN && ev.key.keysym.sym == SDLK_q && ev.key.keysym.mod & KMOD_LMETA);
 #else

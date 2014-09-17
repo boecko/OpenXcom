@@ -35,7 +35,7 @@
 #include <time.h>
 #endif
 
-#ifdef __ANDROID__
+#if defined(__ANDROID__) && !defined(__APPLE__) 
 #include <android/log.h>
 #endif
 
