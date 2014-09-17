@@ -441,6 +441,7 @@ bool init(int argc, char *argv[])
 	setFolders();
 	updateOptions();
 
+#ifndef __APPLE__
 	std::string s = getUserFolder();
 	s += "openxcom.log";
 	Logger::logFile() = s;
@@ -451,6 +452,7 @@ bool init(int argc, char *argv[])
 	}
 	fflush(file);
 	fclose(file);
+#endif
 	Log(LOG_INFO) << "Data folder is: " << _dataFolder;
 	Log(LOG_INFO) << "Data search is: ";
 	for (std::vector<std::string>::iterator i = _dataList.begin(); i != _dataList.end(); ++i)
