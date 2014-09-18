@@ -377,7 +377,8 @@ void State::setPalette(SDL_Color *colors, int firstcolor, int ncolors, bool imme
  */
 void State::setPalette(const std::string &palette, int backpals)
 {
-	setPalette(_game->getResourcePack()->getPalette(palette)->getColors(), 0, 256, false);
+    Palette *tmpPal = _game->getResourcePack()->getPalette(palette);
+	setPalette(tmpPal->getColors(), 0, 256, false);
 	if (backpals != -1)
 		setPalette(_game->getResourcePack()->getPalette("BACKPALS.DAT")->getColors(Palette::blockOffset(backpals)), Palette::backPos, 16, false);
 	setPalette(NULL); // delay actual update to the end
