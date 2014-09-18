@@ -603,6 +603,9 @@
 		1A9B8F5219C8F5080040691C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9B8F5119C8F5080040691C /* libxml2.dylib */; };
 		1A9B8F5419C8F5380040691C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9B8F5319C8F5380040691C /* MobileCoreServices.framework */; };
 		1AA715CB19C7B4ED00860E3F /* libyaml-cpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1A77F319C7A8BE00CE4F22 /* libyaml-cpp.a */; };
+		1AB9BC0A19CAD94000790736 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB9BC0919CAD94000790736 /* UIKit.framework */; };
+		1AB9BC0C19CAD9C400790736 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB9BC0B19CAD9C300790736 /* CoreFoundation.framework */; };
+		1AB9BC1619CADA8D00790736 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB9BC1519CADA8D00790736 /* QuartzCore.framework */; };
 		1AD7DC6A19C7A2C300FAB81E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD7DC6919C7A2C300FAB81E /* OpenGLES.framework */; };
 		1AD7DC6D19C7A2E200FAB81E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD7DC6C19C7A2E200FAB81E /* CoreAudio.framework */; };
 		1AD7DC6F19C7A2F600FAB81E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD7DC6E19C7A2F600FAB81E /* AudioToolbox.framework */; };
@@ -1322,6 +1325,13 @@
 		1A9B8F5519C8F5600040691C /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libstdc++.dylib"; sourceTree = DEVELOPER_DIR; };
 		1AA715C419C7B4D200860E3F /* SDL_image.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_image.xcodeproj; path = "SDL_image/Xcode-iOS/SDL_image.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		1AA715CC19C7B6DA00860E3F /* SDL_mixer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_mixer.xcodeproj; path = "SDL_mixer/Xcode-iOS/SDL_mixer.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1AB9BC0919CAD94000790736 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1AB9BC0B19CAD9C300790736 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		1AB9BC0D19CAD9D400790736 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		1AB9BC0F19CAD9E700790736 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		1AB9BC1119CADA0700790736 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaAccessibility.framework; sourceTree = DEVELOPER_DIR; };
+		1AB9BC1319CADA1200790736 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		1AB9BC1519CADA8D00790736 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		1ACC788619C986160021DB1E /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libc++abi.dylib"; sourceTree = DEVELOPER_DIR; };
 		1AD7DC6919C7A2C300FAB81E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		1AD7DC6C19C7A2E200FAB81E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
@@ -1358,6 +1368,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB9BC1619CADA8D00790736 /* QuartzCore.framework in Frameworks */,
+				1AB9BC0C19CAD9C400790736 /* CoreFoundation.framework in Frameworks */,
+				1AB9BC0A19CAD94000790736 /* UIKit.framework in Frameworks */,
 				1A9B8F5419C8F5380040691C /* MobileCoreServices.framework in Frameworks */,
 				1A9B8F5219C8F5080040691C /* libxml2.dylib in Frameworks */,
 				1A9B8F5019C8F4FC0040691C /* libz.dylib in Frameworks */,
@@ -2204,6 +2217,13 @@
 		6BACF5FA19350F9700E1A981 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AB9BC1519CADA8D00790736 /* QuartzCore.framework */,
+				1AB9BC1319CADA1200790736 /* CoreImage.framework */,
+				1AB9BC1119CADA0700790736 /* MediaAccessibility.framework */,
+				1AB9BC0F19CAD9E700790736 /* GLKit.framework */,
+				1AB9BC0D19CAD9D400790736 /* CoreVideo.framework */,
+				1AB9BC0B19CAD9C300790736 /* CoreFoundation.framework */,
+				1AB9BC0919CAD94000790736 /* UIKit.framework */,
 				1ACC788619C986160021DB1E /* libc++abi.dylib */,
 				1A9B8F5519C8F5600040691C /* libstdc++.dylib */,
 				1A9B8F5319C8F5380040691C /* MobileCoreServices.framework */,
@@ -3069,6 +3089,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OpenXcom-iOS",
@@ -3081,9 +3102,13 @@
 					"_NDEBUG=1",
 					"__NO_OPENGL=1",
 				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../src,
+				);
 				INFOPLIST_FILE = "OpenXcom-iOS/OpenXcom-iOS-Info.plist";
 				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-O3";
 				PRODUCT_NAME = "OpenXcom iOS";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -3107,6 +3132,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OpenXcom-iOS",
@@ -3114,7 +3140,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenXcom-iOS/OpenXcom-iOS-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "__NO_OPENGL=1";
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../src,
+				);
 				INFOPLIST_FILE = "OpenXcom-iOS/OpenXcom-iOS-Info.plist";
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "OpenXcom iOS";

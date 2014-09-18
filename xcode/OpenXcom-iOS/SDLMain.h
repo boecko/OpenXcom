@@ -9,8 +9,12 @@
 #define _SDLMain_h_
 
 #import <UIKit/UIKit.h>
+#include "../SDL/src/video/uikit/SDL_uikitappdelegate.h"
 
-@interface SDLMain : UIApplication
+@interface SDLUIKitDelegate (customDelegate)
+@end
+
+@interface SDLMain : SDLUIKitDelegate
 
 @end
 
