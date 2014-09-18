@@ -1791,6 +1791,7 @@ void SavedBattleGame::setPaletteByDepth(State *state)
 	}
 	else
 	{
+        //FIXME crash on iOS
 		std::stringstream ss;
 		ss << "PAL_BATTLESCAPE_" << _depth;
 		state->setPalette(ss.str());
