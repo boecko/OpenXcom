@@ -35,6 +35,9 @@
 #include "Renderer.h"
 #include "SDLRenderer.h"
 #include "OpenGLRenderer.h"
+#ifdef __APPLE__
+#include <TargetConditionals.h>
+#endif
 
 namespace OpenXcom
 {
@@ -105,7 +108,10 @@ void Screen::makeVideoFlags()
 		SDL_putenv(const_cast<char*>("SDL_VIDEO_CENTERED="));
 	}
 #endif
-
+#if defined(__APPLE__) && (TARGET_OS_IPHONE||TARGET_IPHONE_SIMULATOR)
+    _flags = SDL_WINDOW_FULLSCREEN;
+#endif
+    
 	//_bpp = (isHQXEnabled() || isOpenGLEnabled()) ? 32 : 8;
 	_bpp = 32;
 	_baseWidth = Options::baseXResolution;
@@ -363,6 +369,9 @@ void Screen::resetDisplay(bool resetVideo)
 			// Try fixing the Samsung devices - see https://bugzilla.libsdl.org/show_bug.cgi?id=2291
 #ifdef __ANDROID__
 			SDL_GL_SetAttribute(SDL_GL_RETAINED_BACKING, 0);
+#if defined(__APPLE__) && (TARGET_OS_IPHONE||TARGET_IPHONE_SIMULATOR)
+            SDL_SetHint(SDL_HINT_ORIENTATIONS, "LandscapeLeft LandscapeRight");
+#endif
 #endif
 			_window = SDL_CreateWindow("OpenXcom",
 						   SDL_WINDOWPOS_UNDEFINED,

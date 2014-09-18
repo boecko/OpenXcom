@@ -343,7 +343,12 @@ void Game::run()
 					{
 						// On Android, fingerId of 0 corresponds to the first finger on the screen.
 						// FIXME: This might be platform-dependent!
-						if(_event.tfinger.fingerId == 0)
+                        bool touchEventFirstFinger = _event.tfinger.fingerId == 0;
+#ifdef __APPLE__
+                        // HACK tfinger.fingerId is NOT 0 on iOS, see [SDL_uikitview touchesBegan]
+                        touchEventFirstFinger = true;
+#endif
+						if(touchEventFirstFinger)
 						{
 							// Note that we actually handle fingermotion, so emulating it may cause bugs.
 							if(_event.type == SDL_FINGERMOTION)
